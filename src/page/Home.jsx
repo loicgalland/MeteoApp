@@ -1,6 +1,6 @@
 
 
-function App() {
+function Home() {
   return (
     <>
       coucou
@@ -8,4 +8,4 @@ function App() {
   )
 }
 
-export default App
+export default Home
