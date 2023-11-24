@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {BrowserRouter} from "react-router-dom";
 import Rooter from "./components/Rooter.jsx";
+import './style.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

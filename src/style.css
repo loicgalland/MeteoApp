@@ -1,0 +1,9 @@
+.home__container{
+    padding: 25px;
+    height: 100vh;
+    background-image: url('./assets/images/ba638f4d98e9ffd1e0940f47a91ee4f3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
