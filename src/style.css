@@ -1,5 +1,6 @@
 .home__container{
     padding: 25px;
+    max-width: 600px;
     height: 100vh;
     background-image: url('./assets/images/ba638f4d98e9ffd1e0940f47a91ee4f3.jpg');
     background-repeat: no-repeat;
