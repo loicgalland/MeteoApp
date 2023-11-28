@@ -1,5 +1,6 @@
 import {useState, useEffect} from "react";
 import Card from "./Cards.jsx";
+import {SecretKey} from "../../config.js";
 
 export default function Weather({ location }){
     // data for weather
@@ -18,7 +19,7 @@ export default function Weather({ location }){
 
     // fetch API to collect all the weather data
     const fetchWeather = async () =>{
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=f89814989366853b9b0ebc675f9a4e12&units=metric&lang=fr&cnt=5`);
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=${SecretKey}&units=metric&lang=fr&cnt=5`);
         if(response.status === 200){
             response.json().then(weather =>{
                 setTemperature(weather.list[0].main.temp.toFixed(1))

@@ -20,7 +20,7 @@ export default function Navbar({ onLocationChange }){
             <form className="flex mt-2 gap-3">
                 <input type="text"
                        placeholder="City..."
-                       className="p-2 border border-slate-50 rounded-full w-full bg-inherit placeholder:text-slate-50"
+                       className="p-2 border border-slate-50 rounded-full w-full bg-inherit text-slate-50 placeholder:text-slate-50 text-slate-50np"
                        onChange={handleChange}
                 />
                 <button
