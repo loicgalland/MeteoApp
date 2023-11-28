@@ -1,6 +1,6 @@
 import {useState, useEffect} from "react";
 import Card from "./Cards.jsx";
-import {SecretKey} from "../../config.js";
+import {SecretKey} from "../../Env/config.js";
 
 export default function Weather({ location }){
     // data for weather
